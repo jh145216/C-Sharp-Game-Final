@@ -1,3 +1,14 @@
 C:\Users\mc137344\AppData\Local\Temporary Projects\Final\bin\Debug\Final.exe.config
 C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\bin\Debug\Final.exe.config
+<<<<<<< master
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\bin\Debug\Final.exe
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\bin\Debug\Final.pdb
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.csprojResolveAssemblyReference.cache
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.Form1.resources
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.Properties.Resources.resources
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.csproj.GenerateResource.Cache
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.exe
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.pdb
+=======
 C:\Users\jh145216\Desktop\Visual C#\C-Sharp-Game-Final\Final\Final\bin\Debug\Final.exe.config
+>>>>>>> master
