@@ -8,3 +8,4 @@ C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.Prop
 C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.csproj.GenerateResource.Cache
 C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.exe
 C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.pdb
+C:\Users\mc137344\Desktop\C#\C-Sharp-Game-Final\Final\Final\obj\Debug\Final.Form2.resources

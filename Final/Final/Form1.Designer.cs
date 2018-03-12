@@ -29,30 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.txtEnterName = new System.Windows.Forms.TextBox();
-            this.lblEnterName = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClickToPlay = new System.Windows.Forms.Button();
+            this.lblGameInfo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtEnterName
-            // 
-            this.txtEnterName.Location = new System.Drawing.Point(97, 342);
-            this.txtEnterName.Name = "txtEnterName";
-            this.txtEnterName.Size = new System.Drawing.Size(117, 20);
-            this.txtEnterName.TabIndex = 0;
-            this.txtEnterName.TextChanged += new System.EventHandler(this.txtEnterName_TextChanged);
-            // 
-            // lblEnterName
-            // 
-            this.lblEnterName.AutoSize = true;
-            this.lblEnterName.Location = new System.Drawing.Point(94, 260);
-            this.lblEnterName.Name = "lblEnterName";
-            this.lblEnterName.Size = new System.Drawing.Size(120, 13);
-            this.lblEnterName.TabIndex = 1;
-            this.lblEnterName.Text = "Enter Your Name Below";
             // 
             // lblWelcome
             // 
@@ -75,24 +57,33 @@
             // 
             // btnClickToPlay
             // 
-            this.btnClickToPlay.Location = new System.Drawing.Point(97, 394);
+            this.btnClickToPlay.Location = new System.Drawing.Point(329, 411);
             this.btnClickToPlay.Name = "btnClickToPlay";
-            this.btnClickToPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnClickToPlay.Size = new System.Drawing.Size(117, 23);
             this.btnClickToPlay.TabIndex = 4;
             this.btnClickToPlay.Text = "Click To Play";
             this.btnClickToPlay.UseVisualStyleBackColor = true;
-            this.btnClickToPlay.Click += new System.EventHandler(this.button1_Click);
+            this.btnClickToPlay.Click += new System.EventHandler(this.btnClickToPlay_Click);
+            // 
+            // lblGameInfo
+            // 
+            this.lblGameInfo.AutoSize = true;
+            this.lblGameInfo.Location = new System.Drawing.Point(35, 73);
+            this.lblGameInfo.Name = "lblGameInfo";
+            this.lblGameInfo.Size = new System.Drawing.Size(35, 13);
+            this.lblGameInfo.TabIndex = 5;
+            this.lblGameInfo.Text = "label1";
+         
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(789, 474);
+            this.Controls.Add(this.lblGameInfo);
             this.Controls.Add(this.btnClickToPlay);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblWelcome);
-            this.Controls.Add(this.lblEnterName);
-            this.Controls.Add(this.txtEnterName);
             this.Name = "Form1";
             this.Text = "Song Guessing";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -103,11 +94,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtEnterName;
-        private System.Windows.Forms.Label lblEnterName;
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnClickToPlay;
+        private System.Windows.Forms.Label lblGameInfo;
     }
 }
 
