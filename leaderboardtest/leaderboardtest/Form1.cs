@@ -29,7 +29,7 @@ namespace leaderboardtest
             File.WriteAllText("C:\\Users\\mc137344\\AppData\\Local\\Temporary Projects\\leaderboardtest\\Resources\\results.txt", scores2);
             scores = File.ReadAllLines("C:\\Users\\mc137344\\AppData\\Local\\Temporary Projects\\leaderboardtest\\Resources\\results.txt");
             scores.ToString();
-            label1.Text = scores[];
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
