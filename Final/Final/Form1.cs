@@ -21,6 +21,7 @@ namespace Final
             InitializeComponent();
 
             player.SoundLocation = "wiisong.wav";
+            
            
             
         }
@@ -33,9 +34,6 @@ namespace Final
             f2.ShowDialog(); // Shows Form2
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            lblGameInfo
-        }
+       
     }
 }
