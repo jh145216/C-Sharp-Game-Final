@@ -33,6 +33,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClickToPlay = new System.Windows.Forms.Button();
             this.lblGameInfo = new System.Windows.Forms.Label();
+            this.lblHowToPlay = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +50,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(255, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(263, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(290, 360);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -70,22 +72,42 @@
             this.lblGameInfo.AutoSize = true;
             this.lblGameInfo.Location = new System.Drawing.Point(35, 73);
             this.lblGameInfo.Name = "lblGameInfo";
-            this.lblGameInfo.Size = new System.Drawing.Size(35, 13);
+            this.lblGameInfo.Size = new System.Drawing.Size(67, 13);
             this.lblGameInfo.TabIndex = 5;
-            this.lblGameInfo.Text = "label1";
-         
+            this.lblGameInfo.Text = "How to Play:";
+            // 
+            // lblHowToPlay
+            // 
+            this.lblHowToPlay.AutoSize = true;
+            this.lblHowToPlay.Location = new System.Drawing.Point(3, 122);
+            this.lblHowToPlay.Name = "lblHowToPlay";
+            this.lblHowToPlay.Size = new System.Drawing.Size(254, 13);
+            this.lblHowToPlay.TabIndex = 6;
+            this.lblHowToPlay.Text = "Listen to the song and type what song you think it is!";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 109);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(219, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Guess as many songs as you can in 1 minute";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(789, 474);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblHowToPlay);
             this.Controls.Add(this.lblGameInfo);
             this.Controls.Add(this.btnClickToPlay);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblWelcome);
             this.Name = "Form1";
             this.Text = "Song Guessing";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -98,6 +120,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnClickToPlay;
         private System.Windows.Forms.Label lblGameInfo;
+        private System.Windows.Forms.Label lblHowToPlay;
+        private System.Windows.Forms.Label label1;
     }
 }
 
