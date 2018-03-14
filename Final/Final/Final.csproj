@@ -90,8 +90,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="resources\5_Minutes_Of_The_Wii_Menu_Music_.wav" />
     <Content Include="resources\giphy.gif" />
     <None Include="resources\giphy1.gif" />
+    <Content Include="resources\Kendrick_Lamar_-_HUMBLE_.wav" />
     <Content Include="resources\speakesrgif.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

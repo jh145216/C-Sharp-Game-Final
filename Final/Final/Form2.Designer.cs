@@ -35,6 +35,9 @@
             this.txtUserGuess = new System.Windows.Forms.TextBox();
             this.lblSongName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblYourScore = new System.Windows.Forms.Label();
+            this.lblScore = new System.Windows.Forms.Label();
+            this.btnCheckAnswer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +69,7 @@
             this.txtUserGuess.Name = "txtUserGuess";
             this.txtUserGuess.Size = new System.Drawing.Size(100, 20);
             this.txtUserGuess.TabIndex = 4;
+            this.txtUserGuess.TextChanged += new System.EventHandler(this.txtUserGuess_TextChanged);
             // 
             // lblSongName
             // 
@@ -86,11 +90,42 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // lblYourScore
+            // 
+            this.lblYourScore.AutoSize = true;
+            this.lblYourScore.Location = new System.Drawing.Point(652, 119);
+            this.lblYourScore.Name = "lblYourScore";
+            this.lblYourScore.Size = new System.Drawing.Size(38, 13);
+            this.lblYourScore.TabIndex = 7;
+            this.lblYourScore.Text = "Score:";
+            // 
+            // lblScore
+            // 
+            this.lblScore.AutoSize = true;
+            this.lblScore.Location = new System.Drawing.Point(655, 146);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(35, 13);
+            this.lblScore.TabIndex = 8;
+            this.lblScore.Text = "label1";
+            // 
+            // btnCheckAnswer
+            // 
+            this.btnCheckAnswer.Location = new System.Drawing.Point(511, 337);
+            this.btnCheckAnswer.Name = "btnCheckAnswer";
+            this.btnCheckAnswer.Size = new System.Drawing.Size(109, 23);
+            this.btnCheckAnswer.TabIndex = 9;
+            this.btnCheckAnswer.Text = "Check Answer";
+            this.btnCheckAnswer.UseVisualStyleBackColor = true;
+            this.btnCheckAnswer.Click += new System.EventHandler(this.btnCheckAnswer_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 465);
+            this.Controls.Add(this.btnCheckAnswer);
+            this.Controls.Add(this.lblScore);
+            this.Controls.Add(this.lblYourScore);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblSongName);
             this.Controls.Add(this.txtUserGuess);
@@ -113,6 +148,9 @@
         private System.Windows.Forms.TextBox txtUserGuess;
         private System.Windows.Forms.Label lblSongName;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblYourScore;
+        private System.Windows.Forms.Label lblScore;
+        private System.Windows.Forms.Button btnCheckAnswer;
 
     }
 }
