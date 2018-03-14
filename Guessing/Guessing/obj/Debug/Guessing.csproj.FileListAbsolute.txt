@@ -1,0 +1,9 @@
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\bin\Debug\Guessing.exe.config
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\bin\Debug\Guessing.exe
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\bin\Debug\Guessing.pdb
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.csprojResolveAssemblyReference.cache
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.Form1.resources
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.Properties.Resources.resources
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.csproj.GenerateResource.Cache
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.exe
+C:\Users\jh145216\AppData\Local\Temporary Projects\Guessing\obj\Debug\Guessing.pdb
