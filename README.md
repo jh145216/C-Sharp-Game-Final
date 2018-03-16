@@ -10,4 +10,4 @@ Video of game:
      https://youtu.be/dCqv3N-PMAM
      
 Flowchart:
-    <img src="C#%20Final.png" alt="Flow Chart">
+    <img src="flowchart.png" alt="Flow Chart">
