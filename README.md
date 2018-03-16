@@ -9,5 +9,5 @@ Details:
 Video of game: 
      https://youtu.be/dCqv3N-PMAM
      
-Flowchart:
+
     <img src="flowchart.png" alt="Flow Chart">
